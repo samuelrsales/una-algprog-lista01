@@ -9,4 +9,22 @@ Você está em sua localização atual e precisa chegar à Estação de Metrô N
 
 # RESPOSTA
 
-...
+funcao deslocamento(meio_transporte, posicao_inicial, destino):
+  enquanto posicao_inicial diferente destino:
+    posicao_inicial + 1km
+
+  mostrar(Parabéns, você chegou ao {destino})
+
+meio_transporte = nulo  
+
+se chovendo == verdadeiro:
+  meio_transporte = uber
+
+senao:
+  se distancia <  1km:
+  meio_transporte = andando
+
+  senao:
+    meio_transporte = onibus
+
+deslocamento(meio_transporte, minha_casa, metro)
