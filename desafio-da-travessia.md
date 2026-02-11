@@ -9,7 +9,10 @@ Tarefa: Escreva no seu caderno o passo a passo (algoritmo) para atravessar todos
 
 # RESPOSTA:
 
-1º Levar a Cabra
-2º Levar o Lobo e voltar com a Cabra 
-3º Levar a Couve
-4º Levar o Lobo
+- 1º Levar a Cabra
+
+- 2º Levar o Lobo e voltar com a Cabra 
+
+- 3º Levar a Couve
+
+- 4º Levar o Lobo
