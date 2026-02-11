@@ -1,12 +1,27 @@
-# Logística de E-commerce
+Logística de E-commerce
 
 Você decidiu comprar o novo iPhone 17 na Amazon, mas precisa garantir que a compra seja segura, econômica e bem-sucedida.
 
-**Regras:**
+Regras:
 - Verifique se o vendedor é "Amazon" ou "Loja Oficial Apple".
 - O saldo no cartão deve ser validado antes de confirmar.
 - Se o frete for grátis, selecione-o; caso contrário, avalie o prazo.
 
-# RESPOSTA
+RESPOSTA
 
-...
+se saldo_cartao >= preco_produto:
+  se vendedor == "Amazon" ou vendedor == "Loja Oficial Apple":
+    se frete_gratis = verdadeiro:
+        compra =  verdadeiro
+    
+    senao:
+      se tempo_frete > seu_limite_de_espera:
+        compra = falso
+      senao:
+        compra = verdadeiro
+
+  senao:
+    compra = falso
+
+senao:
+  mostrar("Você não tem saldo o suficiente para esta compra.")
