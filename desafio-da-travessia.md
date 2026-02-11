@@ -1,4 +1,4 @@
-Atividade de Fixação:
+# Atividade de Fixação:
 
 Um fazendeiro precisa levar um lobo, uma cabra e um maço de couve para o outro lado do rio. Ele tem um barco que só permite levar ele e mais um item.
 
@@ -7,6 +7,6 @@ Um fazendeiro precisa levar um lobo, uma cabra e um maço de couve para o outro 
 - Se a cabra ficar sozinha com a couve, ela a come.
 Tarefa: Escreva no seu caderno o passo a passo (algoritmo) para atravessar todos em segurança.
 
-RESPOSTA:
+# RESPOSTA:
 
 ...
